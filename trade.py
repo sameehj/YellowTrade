@@ -6,9 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-## @param: WebDriver  -  The webdriver to be used
+## @param: WebDriver  - The webdriver to be used
 ## @returns: An array - Returns the 15 minutes, 1 hour and 1 day recommendation values for Oscillators, Summary and Moving Averages
-##                  indicators
+##                      indicators
 def fetch_data(driver):
     temp = []
     values = []
